@@ -1,0 +1,126 @@
+@media (min-width: 500px) {
+    .container {
+        width: 90% !important;
+    }
+    .container-fluid {
+        width: 100% !important;
+    }
+    .navbar {
+        margin: 0 auto;
+        width: 90% !important;
+    }
+}
+
+#game-section{
+    margin: 25px auto;
+    width: 90%;
+    height: 90%;
+}
+
+#game-pic{
+    float: left;
+    width: 55%;
+    height: 90%;
+    margin: 5px 0 25px;
+}
+
+#game-pic img{
+    margin: 2px auto;
+    width:18%;
+    height:110px;
+    background:#999;
+    overflow:hidden;
+}
+
+#game-left{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+#game-left button{
+    margin: 0 5px;
+}
+
+#game-right{
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+#game-right img{
+    width: 85%;
+    height: 35%;
+    overflow:hidden;
+}
+
+#game-right button{
+    margin: 30px 30px;
+}
+
+#game-right h1{
+    font-size: 250%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#score{
+    font-size: 600%;
+    color: green;
+    margin: 35px auto;
+    text-align: center;
+    width:85%;
+    overflow:hidden;
+}
+
+#timer{
+    font-size: 225%;
+    color: #EE7621;
+    margin: 20px 10px;
+    text-align: left;
+}
+
+#rules{
+    font-size: 90%;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 15px;
+    -moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,0,0,.4);
+	padding: 1em;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+/*Start: General footer */
+footer {
+    clear: both;
+	width: 90%;
+    margin: 0 auto;
+    border: 2px solid #C1CDC1;
+	color: black;
+	background: #cb0368;
+	text-align: center;
+	padding: 5px 0;
+	background-image: -moz-linear-gradient(
+	0deg, #DBDBDB 0%, #DBDBDB 25%, #DBDBDB 50%, #DBDBDB 75%, #DBDBDB 100%);
+	background-image: -webkit-linear-gradient(
+	0deg, #DBDBDB 0%, #DBDBDB 25%, #DBDBDB 50%, #DBDBDB 75%, #DBDBDB 100%);
+	background-image: -o-linear-gradient(
+	0deg, #DBDBDB 0%, #DBDBDB 25%, #DBDBDB 50%, #DBDBDB 75%, #DBDBDB 100%);
+	background-image: linear-gradient(
+	0deg, #DBDBDB 0%, #DBDBDB 25%, #DBDBDB 50%, #DBDBDB 75%, #DBDBDB 100%);
+}
+
+footer a {
+	color: black;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: green;
+	font-style: italic;
+}
+/*end*/
